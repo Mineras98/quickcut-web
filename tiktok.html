@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+  const p = new URLSearchParams(window.location.search);
+  window.location.href = 'quickcut://oauth/tiktok?' + p.toString();
+</script>
+</body>
+</html>
